@@ -1,0 +1,10 @@
+.news-page {
+  min-height: 80vh;
+}
+
+.news-list {
+  padding: 2rem 0;
+  font-size: 1.125rem;
+  color: #555;
+}
+

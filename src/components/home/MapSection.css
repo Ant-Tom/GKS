@@ -1,0 +1,226 @@
+.map-section {
+  width: 100%;
+  height: 900px;
+  position: relative;
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.map-info-card {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  background: #111111;
+  padding: 40px;
+  border-radius: 0;
+  box-shadow: 0px 0px 40px 0px rgba(27, 28, 33, 0.2);
+  max-width: 483px;
+  width: 483px;
+  z-index: 10;
+  position: relative;
+  color: #FFFFFF;
+}
+
+.map-card-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #FFFFFF;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s;
+  line-height: 1;
+  padding: 0;
+}
+
+.map-card-close:hover {
+  opacity: 0.7;
+}
+
+.map-card-title {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.53;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.map-card-address {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.82;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.map-card-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.map-card-label {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 22px;
+  line-height: 1.82;
+  margin-bottom: 10px;
+}
+
+.map-card-contacts a {
+  font-family: 'PT Sans', sans-serif;
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.82;
+  transition: opacity 0.3s;
+  display: block;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.map-card-contacts a:hover {
+  opacity: 0.8;
+}
+
+.map-card-btn {
+  width: 100%;
+  background-color: #111111;
+  color: #FFFFFF;
+  padding: 0;
+  height: 60px;
+  border: 1px solid #FFFFFF;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.67;
+  transition: background-color 0.3s, color 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.map-card-btn:hover {
+  background-color: #FFFFFF;
+  color: #111111;
+}
+
+@media (max-width: 1024px) {
+  .map-section {
+    height: 700px;
+  }
+  
+  .map-info-card {
+    top: 30px;
+    right: 40px;
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+  }
+  
+  .map-card-title {
+    font-size: 26px;
+  }
+  
+  .map-card-address {
+    font-size: 20px;
+  }
+  
+  .map-card-label {
+    font-size: 20px;
+  }
+  
+  .map-card-contacts a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .map-section {
+    height: 600px;
+  }
+  
+  .map-info-card {
+    position: relative;
+    top: 0;
+    right: 0;
+    max-width: 100%;
+    width: 100%;
+    margin: 20px;
+    padding: 30px;
+  }
+  
+  .map-card-title {
+    font-size: 24px;
+  }
+  
+  .map-card-address {
+    font-size: 18px;
+  }
+  
+  .map-card-label {
+    font-size: 18px;
+  }
+  
+  .map-card-contacts a {
+    font-size: 18px;
+  }
+  
+  .map-card-btn {
+    height: 50px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .map-section {
+    height: 500px;
+  }
+  
+  .map-info-card {
+    margin: 16px;
+    padding: 24px;
+  }
+  
+  .map-card-title {
+    font-size: 20px;
+  }
+  
+  .map-card-address {
+    font-size: 16px;
+  }
+  
+  .map-card-label {
+    font-size: 16px;
+  }
+  
+  .map-card-contacts a {
+    font-size: 16px;
+  }
+}
+

@@ -1,0 +1,32 @@
+.products-page {
+  min-height: 80vh;
+}
+
+.products-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.product-item {
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  border-left: 4px solid var(--primary-purple);
+}
+
+.product-item h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--text-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.product-item p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #555;
+}
+

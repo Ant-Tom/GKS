@@ -1,0 +1,37 @@
+.career-page {
+  min-height: 80vh;
+}
+
+.career-content {
+  padding: 2rem 0;
+}
+
+.career-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--text-dark);
+}
+
+.career-content p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.career-btn {
+  display: inline-block;
+  background-color: var(--primary-purple);
+  color: var(--text-light);
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-size: 1.125rem;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.career-btn:hover {
+  background-color: #5a1da3;
+}
+
