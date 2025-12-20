@@ -64,11 +64,11 @@ function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p className="copyright">© 2021 НПП «ГКС»</p>
+          <p className="copyright">© 2023 НПП «ГКС»</p>
           <div className="footer-bottom-links">
-            <Link to="/sitemap">Карта сайта</Link>
+            <span>Дизайн сайта: Katerina Timofeeva</span>
             <span>•</span>
-            <span>Разработка сайтов: TexelPro</span>
+            <span>Разработано в АСПРО</span>
           </div>
         </div>
       </div>
