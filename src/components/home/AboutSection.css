@@ -3,6 +3,8 @@
   background-color: #111111;
   position: relative;
   overflow: hidden;
+  width: 100%;
+  max-width: 100%;
 }
 
 .about-section::before {
@@ -23,6 +25,10 @@
   padding: 170px 100px 100px;
   position: relative;
   z-index: 1;
+}
+
+.about-section .section-header {
+  margin-bottom: 0;
 }
 
 .section-header {
@@ -59,10 +65,11 @@
 .about-content {
   display: grid;
   grid-template-columns: 501px 477px;
-  gap: 80px;
+  gap: 104px;
   margin-top: 0;
   margin-bottom: 0;
   justify-content: start;
+  padding-left: 542px;
 }
 
 .about-column {
@@ -81,6 +88,7 @@
   .about-content {
     grid-template-columns: 1fr 1fr;
     gap: 60px;
+    padding-left: 0;
   }
 }
 
@@ -115,13 +123,72 @@
     font-size: 32px;
   }
   
+  .section-arrow {
+    width: 24px;
+    height: 24px;
+  }
+  
   .about-content {
     grid-template-columns: 1fr;
     gap: 40px;
+    padding-left: 0;
   }
   
   .about-column {
     font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-content {
+    gap: 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-section::before {
+    display: none;
+  }
+  
+  .container {
+    padding: 60px 16px 50px;
+  }
+  
+  .section-header {
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+  }
+  
+  .section-arrow {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .about-content {
+    gap: 30px;
+  }
+  
+  .about-column {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    padding: 50px 12px 40px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+  }
+  
+  .about-column {
+    font-size: 15px;
   }
 }
 
