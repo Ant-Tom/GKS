@@ -53,23 +53,6 @@ function Footer() {
               <li><a href="#summary">Сводные ведомости</a></li>
             </ul>
           </div>
-          <div className="footer-column footer-social">
-            <div className="social-icons">
-              <a href="#" aria-label="Facebook" className="social-icon">f</a>
-              <a href="#" aria-label="Instagram" className="social-icon">📷</a>
-              <a href="#" aria-label="YouTube" className="social-icon">▶</a>
-              <a href="#" aria-label="VK" className="social-icon">вк</a>
-              <a href="#" aria-label="Odnoklassniki" className="social-icon">ok</a>
-            </div>
-          </div>
-        </div>
-        <div className="footer-bottom">
-          <p className="copyright">© 2023 НПП «ГКС»</p>
-          <div className="footer-bottom-links">
-            <span>Дизайн сайта: Katerina Timofeeva</span>
-            <span>•</span>
-            <span>Разработано в АСПРО</span>
-          </div>
         </div>
       </div>
     </footer>

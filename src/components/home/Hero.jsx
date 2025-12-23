@@ -12,7 +12,6 @@ function Hero() {
         <div className="hero-brushstrokes"></div>
       </div>
       <div className="hero-content">
-        <div className="hero-company-name">НПП «ГКС»</div>
         <div className="hero-title-wrapper">
           <h1 className="hero-title">
             <span className="hero-title-line">ИНЖИНИРИНГ</span>

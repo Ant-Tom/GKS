@@ -2,5 +2,18 @@
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .home {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 480px) {
+  .home {
+    overflow-x: hidden;
+  }
 }
 

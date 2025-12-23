@@ -116,25 +116,6 @@
   pointer-events: auto;
 }
 
-.hero-company-name {
-  position: absolute;
-  top: 246px;
-  left: 100px;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  color: #111111;
-  z-index: 11;
-  width: 192.68px;
-  height: 29.73px;
-  white-space: nowrap;
-  opacity: 0.9;
-  transition: opacity 0.3s ease;
-}
-
-.hero-company-name:hover {
-  opacity: 1;
-}
 
 .hero-title-wrapper {
   position: absolute;
@@ -204,13 +185,14 @@
 
 .hero-logo-under-title {
   position: absolute;
-  top: 120px;
-  left: 0;
-  right: 0;
-  width: 100%;
-  max-width: 100%;
+  top: 3px;
+  left: 27px;
+  right: 27px;
+  width: calc(100% - 54px);
+  max-width: calc(100% - 54px);
   height: auto;
-  min-height: 300px;
+  min-height: 260px;
+  max-height: 600px;
   z-index: 9;
   object-fit: contain;
   object-position: center;
@@ -228,7 +210,7 @@
   margin: 0;
   padding: 0;
   position: absolute;
-  top: 829px;
+  top: 700px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 11;
@@ -259,6 +241,7 @@
   position: relative;
   top: 0;
   left: 0;
+  transform: translateY(20%);
   transition: transform 0.3s ease, opacity 0.3s ease;
   display: block;
 }
@@ -433,11 +416,6 @@
 }
 
 @media (max-width: 1600px) {
-  .hero-company-name {
-    left: 80px;
-    top: 170px;
-    font-size: 22px;
-  }
   
   .hero-title-wrapper {
     left: 80px;
@@ -463,16 +441,20 @@
   }
   
   .hero-logo-under-title {
-    top: 110px;
+    top: 3px;
+    left: 20px;
+    right: 20px;
+    width: calc(100% - 40px);
+    max-width: calc(100% - 40px);
     padding: 0;
-    min-height: 250px;
+    min-height: 240px;
+    max-height: 550px;
     z-index: 9;
   }
   
   .hero-stats {
-    left: 50%;
-    transform: translateX(-50%);
-    top: 780px;
+    left: 756px;
+    top: 749px;
     gap: 60px;
   }
   
@@ -487,11 +469,6 @@
 }
 
 @media (max-width: 1400px) {
-  .hero-company-name {
-    left: 50px;
-    top: 150px;
-    font-size: 20px;
-  }
   
   .hero-title-wrapper {
     left: 50px;
@@ -517,16 +494,21 @@
   }
   
   .hero-logo-under-title {
-    top: 96px;
+    top: 3px;
+    left: 20px;
+    right: 20px;
+    width: calc(100% - 40px);
+    max-width: calc(100% - 40px);
     padding: 0;
-    min-height: 220px;
+    min-height: 210px;
+    max-height: 480px;
     z-index: 9;
   }
   
   .hero-stats {
     left: 50%;
     transform: translateX(-50%);
-    top: 650px;
+    top: 550px;
     gap: 50px;
   }
   
@@ -541,11 +523,6 @@
 }
 
 @media (max-width: 1200px) {
-  .hero-company-name {
-    left: 40px;
-    top: 120px;
-    font-size: 18px;
-  }
   
   .hero-title-wrapper {
     left: 40px;
@@ -571,16 +548,21 @@
   }
   
   .hero-logo-under-title {
-    top: 82px;
+    top: 3px;
+    left: 15px;
+    right: 15px;
+    width: calc(100% - 30px);
+    max-width: calc(100% - 30px);
     padding: 0;
-    min-height: 180px;
+    min-height: 190px;
+    max-height: 420px;
     z-index: 9;
   }
   
   .hero-stats {
     left: 50%;
     transform: translateX(-50%);
-    top: 585px;
+    top: 500px;
     gap: 40px;
   }
   
@@ -599,11 +581,6 @@
 }
 
 @media (max-width: 1024px) {
-  .hero-company-name {
-    left: 40px;
-    top: 140px;
-    font-size: 18px;
-  }
   
   .hero-title-wrapper {
     left: 40px;
@@ -636,16 +613,21 @@
   }
   
   .hero-logo-under-title {
-    top: 92px;
+    top: 3px;
+    left: 15px;
+    right: 15px;
+    width: calc(100% - 30px);
+    max-width: calc(100% - 30px);
     padding: 0;
-    min-height: 160px;
+    min-height: 170px;
+    max-height: 380px;
     z-index: 9;
   }
   
   .hero-stats {
     left: 50%;
     transform: translateX(-50%);
-    top: 624px;
+    top: 500px;
     width: auto;
     display: flex;
     flex-direction: row;
@@ -673,6 +655,7 @@
     position: relative;
     top: 0;
     left: 0;
+    transform: translateY(20%);
   }
   
   .stat-text {
@@ -697,11 +680,6 @@
     min-height: auto;
   }
   
-  .hero-company-name {
-    left: 20px;
-    top: 120px;
-    font-size: 16px;
-  }
   
   .hero-title-wrapper {
     left: 20px;
@@ -737,16 +715,21 @@
   }
   
   .hero-logo-under-title {
-    top: 82px;
+    top: 3px;
+    left: 10px;
+    right: 10px;
+    width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
     padding: 0;
-    min-height: 130px;
+    min-height: 150px;
+    max-height: 320px;
     z-index: 9;
   }
   
   .hero-stats {
     left: 50%;
     transform: translateX(-50%);
-    top: 494px;
+    top: 400px;
     width: auto;
     display: flex;
     flex-direction: row;
@@ -812,11 +795,6 @@
 }
 
 @media (max-width: 480px) {
-  .hero-company-name {
-    left: 16px;
-    top: 100px;
-    font-size: 14px;
-  }
   
   .hero-title-wrapper {
     left: 16px;
@@ -851,16 +829,21 @@
   }
   
   .hero-logo-under-title {
-    top: 62px;
+    top: 3px;
+    left: 10px;
+    right: 10px;
+    width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
     padding: 0;
-    min-height: 110px;
+    min-height: 130px;
+    max-height: 280px;
     z-index: 9;
   }
   
   .hero-stats {
     left: 50%;
     transform: translateX(-50%);
-    top: 416px;
+    top: 350px;
     width: auto;
     display: flex;
     flex-direction: row;
@@ -942,11 +925,6 @@
 }
 
 @media (max-width: 360px) {
-  .hero-company-name {
-    left: 12px;
-    top: 80px;
-    font-size: 12px;
-  }
   
   .hero-title-wrapper {
     left: 12px;
@@ -974,16 +952,21 @@
   }
   
   .hero-logo-under-title {
-    top: 53px;
+    top: 3px;
+    left: 8px;
+    right: 8px;
+    width: calc(100% - 16px);
+    max-width: calc(100% - 16px);
     padding: 0;
-    min-height: 100px;
+    min-height: 120px;
+    max-height: 240px;
     z-index: 9;
   }
   
   .hero-stats {
     left: 50%;
     transform: translateX(-50%);
-    top: 390px;
+    top: 320px;
     gap: 15px;
     flex-wrap: wrap;
     justify-content: center;

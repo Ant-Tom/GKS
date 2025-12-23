@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import logoGKS from '../assets/logoGKS.svg'
 import './Header.css'
 
 function Header() {
@@ -26,13 +25,6 @@ function Header() {
 
   return (
     <header className="header">
-      <div className="header-top-bar">
-        <div className="header-top-container">
-          <div className="header-top-left">
-            <img src={logoGKS} alt="НПП ГКС" className="header-top-logo" />
-          </div>
-        </div>
-      </div>
       <div className="header-main">
         <div className="header-container">
           <Link to="/" className="logo">
